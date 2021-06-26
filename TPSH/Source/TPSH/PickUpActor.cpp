@@ -1,9 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 //Corey Veitch-McAllister 2019
 #include "PickUpActor.h"
+#include "TPSHCharacter.h"
 #include "Engine.h"
-
-
 
 // Sets default values
 APickUpActor::APickUpActor()

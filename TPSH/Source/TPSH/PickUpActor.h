@@ -4,10 +4,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "TPSHCharacter.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/BoxComponent.h"
 #include "PickUpActor.generated.h"
+
+class TPSHCharacter;
 
 UENUM(BlueprintType)
 enum class ItemType : uint8{

@@ -4,11 +4,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "PickUpActor.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/Character.h"
 #include "TPSHCharacter.generated.h"
 
+
+class PickUpActor;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<class APickUpActor*>&, InventoryItems);
 

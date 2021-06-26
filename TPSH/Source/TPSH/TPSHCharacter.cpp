@@ -2,7 +2,7 @@
 //Corey Veitch-McAllister 2019
 
 #include "TPSHCharacter.h"
-
+#include "PickUpActor.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
